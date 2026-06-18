@@ -79,6 +79,8 @@ README.md
     3. git commit -m “ “ → 커밋
     4. git push -u origin main → 첫 푸시일때. 이후는 git push만.
 
+- 작업을 하기 전에 git pull을 해 준다. -> git pull origin main
+
 - commit 규칙
     - 문제 풀었을 때
         - (이름)/wk(주차) solve (문제이름) → 예 : ahin/wk01 solve valid-parentheses
