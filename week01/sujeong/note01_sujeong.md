@@ -2,15 +2,15 @@
 자료구조 공부를 안했더니 파이썬 문제 submit 형태도 잘 이해 못 했었는데... 이제 좀 이해함
 
 - c로 따지면 main()는 따로 주어져 있고, 문제에 해당하는 함수만 내가 submit 하는 것.
-  /n 따라서 n = int(input()) 같은 거 하면 X
-  /n 이미 인자로 주어져 있으므로.
+따라서 n = int(input()) 같은 거 하면 X
+이미 인자로 주어져 있으므로.
 
 - 반복문 사용 시
-  /n 무한 루프 주의!
+무한 루프 주의!
 
 # 509. Fibonacci Number
 class Solution:
     def fib(self, n: int) -> int:
 
 위 코드의 class와 인자 self에 대한 이해 필요
-/n 왜 fib() 내에서의 fib()를 호출할 때 fib()가 아니라 self.fib()로 해야 하는가?
+왜 fib() 내에서의 fib()를 호출할 때 fib()가 아니라 self.fib()로 해야 하는가?
