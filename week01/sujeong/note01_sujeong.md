@@ -13,3 +13,6 @@ class Solution:
 
 - 위 코드의 class와 인자 self에 대한 이해 필요
 - fib() 내에서 자기 자신을 호출할 때, 왜 fib()가 아니라 self.fib()로 해야 하는가?
+
+# 342. Power of Four
+경우 나눌 때 꼼꼼히 확인
