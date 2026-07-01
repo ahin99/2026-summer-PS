@@ -4,6 +4,6 @@
 
 # 349. Intersection of Two Arrays
 - python에서 set집합은 array정렬과 다르게 중복을 허용하지 않음.
-  -> set으로 바꾸면 중복이 모두 사라짐.
-  list -> [], set -> {}
+  - set으로 바꾸면 중복이 모두 사라짐.
+  - list -> [], set -> {}
 - &으로 교집합을 구할 수 있음. 편리하다.
