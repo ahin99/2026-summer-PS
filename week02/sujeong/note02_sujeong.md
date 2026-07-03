@@ -7,3 +7,8 @@
   - set으로 바꾸면 중복이 모두 사라짐.
   - list -> [], set -> {}
 - &으로 교집합을 구할 수 있음. 편리하다.
+
+# 414. Third Maximum Number
+- list(set(nums) 이렇게 사용 가능
+- set은 순서가 없으므로 index로 접근 불가
+- 문제 제대로 읽기
