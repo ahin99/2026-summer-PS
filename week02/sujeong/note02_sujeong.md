@@ -12,3 +12,8 @@
 - list(set(nums) 이렇게 사용 가능
 - set은 순서가 없으므로 index로 접근 불가
 - 문제 제대로 읽기
+  
+# 905. Sort Array By Parity
+- 빈 리스트 생성 a = []
+- 리스트 뒤에 요소 생성 a.append(x)
+- 리스트 합치기 x + y
