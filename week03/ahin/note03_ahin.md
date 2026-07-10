@@ -39,3 +39,26 @@ arr.push_back(1); -> 파이썬 appdend랑 똑같음
 - 문자열 길이가 정확히 나누어떨어지는가를 봐서 약수인지 아닌지 빠르게 쳐내기 가능
 - 최대공약수니까 result의 뒤쪽부터 검사하는 게 더 빠를 거 같다
 
+
+
+# 204. Count Primes
+
+벡터에서 특정 원소 삭제하기 :
+arr.erase(인덱스)
+- 범위로 삭제할 수도 있음
+
+* 에라토스테네스의 체 구현의 아이디어
+- vector<bool> isPrime(n, true); -> {true, true, true ... n개 생성}
+    - 굳이 1 ~ n 까지의 벡터를 만들 필요 없음. 
+    - true -> false로 바꿔주면 됨 (개수 셀때는)
+- 0, 1 부터 시작하지 않게 주의 
+    - 0은 나눌 수 없고, 1은 모든 수의 약수
+
+for (int i = 2; i * i < n; i++) {
+        if (isPrime[i]) {   // i가 소수라면
+            for (int j = i * i; j < n; j += i) {
+                isPrime[j] = false;
+            }
+        }
+    }
+
